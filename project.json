@@ -1,0 +1,25 @@
+{
+    "version": "1.0.0-*",
+    "buildOptions": {
+        "debugType": "portable",
+        "emitEntryPoint": true,
+        "copyToOutput": {
+            "include": "appsettings.json"
+        }
+    },
+    "frameworks": {
+        "netcoreapp1.0": {
+            "dependencies": {
+                "Microsoft.Extensions.Configuration.Json": "1.0.0",
+                "Microsoft.Extensions.Logging.Console": "1.0.0",
+                "Microsoft.AspNetCore.Hosting": "1.0.0",
+                "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
+                "Microsoft.AspNetCore.Owin": "1.0.0",
+                "Microsoft.NETCore.App": {
+                    "type": "platform",
+                    "version": "1.0.0"
+                }
+            }
+        }
+    }
+}
